@@ -1,0 +1,14 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "UpdateStdent";
+}
+
+<h1>UpdateStdent</h1>
+<form action="/home/UpdateStdentAct" method="post">
+    <input type="text" name="Name" value="@Model.Name" />
+    <input type="text" name="Surname" value="@Model.Surname" />
+    <input type="submit" name="Submit" value="Submit cahnges" />
+</form>
+
+
+    
